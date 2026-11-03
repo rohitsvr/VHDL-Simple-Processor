@@ -1,0 +1,58 @@
+# Quartus build directories
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+qdb/
+tmp-clearbox/
+.qsys_edit/
+
+# Quartus reports and logs
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.qws
+*.qarlog
+*.qdf
+*.sld
+*.qar
+*.log
+*.bak
+*.orig
+
+# Programming files
+*.sof
+*.pof
+*.jic
+*.rbf
+
+# Waveform simulation output
+*.sim.vwf
+*.vwf.bak
+*.msim.vwf
+
+# ModelSim
+work/
+transcript
+*.wlf
+*.mti
+*.mpf
+*.cr.mti
+modelsim.ini
+vsim.wlf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+*.swp
+*~
